@@ -15,4 +15,3 @@ def get_weather_xml(latitude, longitude):
 
     return requests.get("http://api.openweathermap.org/data/2.5/weather?lat={0}&lon={1}&mode=xml&units=metric".format(
         latitude, longitude)).text
-

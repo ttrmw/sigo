@@ -38,7 +38,7 @@ def run_sigo():
     rain = weather_xml.find("precipitation").attrib.get("mode")
 
     if rain != "no":
-        score - 3
+        score -= 3
 
     return responses[score]
 
